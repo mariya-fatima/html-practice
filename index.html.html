@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>form tag</title> 
+</head>
+<body>
+    <form action="https://google.com/search"  method="get" target="-self">
+<input type="text" name="q" placeholder="Enter search text"/>
+<input type="submit"/><br>
+
+        first name: <input type="text" name="first name" maxlength="10"/><br>
+        last name: <input type="text" name="lastst name" maxlength="10"/><br>
+        user id: <input type="text" name="user id"/><br>
+        password: <input type="password" name="password"/><br>
+        Mobile number: <input type="number" name="mobile number"/><br>
+        Date: <input type="date" name="date"/><br>
+        Description:<br>
+        <textarea type="Description" cols="30" rows="10"name="description">
+            Enter description..
+    </textarea>
+        Checkbox <input type="checkbox" name="maths" value="on" checked="true"/>
+        <input type="checkbox" name="biology" value="on" /><br>
+        <input type="radio" name="gender" value="male"/> male<br>
+        <input type="radio" name="gender" value="female"/>female<br>
+        <select
+           name="dropdown">
+           <option>India</option>
+           <option>China</option>
+           <option>Nepal</option>
+           <option>Bangladesh</option>
+        </select>
+        <br>
+        select the subject
+        <select name="selectsubject" multiple>
+            <option>Physics</option>
+            <option>Maths</option>
+            <ption>biology</option>
+            <option>chemistry</option>
+        </select>
+    </br>
+        <input type="file" name="fileupload" accept="image/*"/>
+    </br>
+        <input type="submit"/>
+        <br/>
+        <input type="submit" name="submit" value="submit"/> <br/>
+        <input type="reset" name="reset" value="reset"/><br/>
+        <input type="button" name="ok" value="ok"/><br/>
+        <input type="image" name="imagebutton" height="50" src="./image.html"/><br/>
+        <marquee attribute-name="attribute-value" direction="right" behavior="alternate" scrolldelay="50" scrollamount="100">
+            one more line or text message
+            <img src="./image.html"/>
+        </marquee>
+
+    </form>
+</body>
+</html> 
